@@ -1,25 +1,41 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import './styles/app.css';
+import Maincomponent from './Components/Maincomponent'
+import Courses from './Components/Courses'
+import Aboutcodeme from './Components/Aboutcodeme';
+import "fullpage.js/vendors/scrolloverflow"; // Optional. When using scrollOverflow:true
+import ReactFullpage from "@fullpage/react-fullpage";
+import Teammain from './Components/Teammain';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+      <ReactFullpage
+        navigation
+        scrollOverflow={true}
+        render={({ state, fullpageApi }) => {
+          return (
+            <div>
+              <div className="section">
+              <Maincomponent/>
+              </div>
+              <div className="section">
+              <Courses/>
+              </div>
+              <div className="section">
+              <Aboutcodeme/>
+
+               </div>
+               <div className="section">
+               <Teammain/>
+               </div>
+            </div>
+          );
+        }}
+      />
+     
+      
+     
+    
   );
 }
 

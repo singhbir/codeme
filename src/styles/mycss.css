@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css?family=Black+Ops+One&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Lemonada&display=swap');
+.txt{
+    font-size: 8rem;
+    font-family: 'Black Ops One', cursive;
+   
+}
+.typ{
+    margin-left:5rem;
+    /* font-family: 'Poppins', sans-serif; */
+    font-family: 'Lemonada', cursive;
+}
+.txt2{
+    font-size: 8rem;
+    font-family: 'Black Ops One', cursive;
+    margin-left:25rem;
+}
+.circle{
+    animation: bubble  3s  infinite;
+}
+
+@keyframes bubble{
+    0% {
+        transform: scale(1,1);
+    }
+    50% {
+        transform: scale(1.2,1.2);
+    }
+    100% {
+        transform: scale(1,1);
+    }
+
+}
+.logoimg:hover{
+    transform: scale(1.4);
+}
+.logoimg{
+    margin-top: -25%;
+}
+@media screen and (max-width:500px)
+{
+    .txt{
+        font-size: 5em;
+    }
+    .typ{
+        font-size: 1.5em;
+        margin-top:-20%
+    }
+    .txt2{
+        font-size: 5em;
+        margin-left:45%;
+    }
+
+}
+@media screen and (max-width:1000px){
+    .deskview{
+            margin-top:-10%;
+    }
+    .txt,.txt2{
+        font-size: 6em;
+    }
+    .txt2{
+        margin-left:25%;
+    }
+}
+@media screen and (max-width:1326px){
+    .deskview{
+        margin-top: -5%;
+    }
+}

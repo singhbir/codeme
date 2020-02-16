@@ -1,0 +1,49 @@
+[
+    {
+        "name":"PYTHON",
+        "Description":"Understanding Data Structure in Python",
+        "Price":"Rs 799",
+        "image":"http://www.pngall.com/wp-content/uploads/2016/05/Python-Logo-Free-Download-PNG.png"        
+    },
+    {
+        "name":"Javascript",
+        "Description":"Understanding Basic Concepts in JS/ES6",
+        "Price":"Rs 999",
+        "image":"http://pluspng.com/img-png/logo-javascript-png-other-resolutions-240-240-pixels-240.png"        
+    },
+    {
+        "name":"DJANGO",
+        "Description":"Exploring Backend in Python",
+        "Price":"Rs 1099",
+        "image":"https://static.djangoproject.com/img/logos/django-logo-negative.png"        
+    },
+    {
+        "name":"NODE JS",
+        "Description":"Exploring Backend in Javascript",
+        "Price":"Rs 1499",
+        "image":"https://nodejs.org/static/images/logos/nodejs-new-pantone-black.svg"        
+    },{
+        "name":"ANGULAR",
+        "Description":"Designing FrontEnd with Angular",
+        "Price":"Rs 1499",
+        "image":"https://angular.io/assets/images/logos/angular/angular.svg"        
+    },{
+        "name":"REACT",
+        "Description":"Designing FrontEnd with React",
+        "Price":"Rs 1999",
+        "image":"https://cdn4.iconfinder.com/data/icons/logos-3/600/React.js_logo-512.png"        
+    },{
+        "name":"FRONTEND",
+        "Description":"Understanding Basic HTML/CSS and SCSS",
+        "Price":"Rs 999",
+        "image":"http://pluspng.com/img-png/logo-javascript-png-javascript-for-ile-y-ld-z-600.png"        
+    },{
+        "name":"VUE js",
+        "Description":"Exploring VUE js and Making Projects",
+        "Price":"Rs 899",
+        "image":"https://upload.wikimedia.org/wikipedia/commons/9/95/Vue.js_Logo_2.svg"        
+    }
+
+
+
+]

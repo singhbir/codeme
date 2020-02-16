@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css?family=Black+Ops+One&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Archivo+Black&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Bungee+Inline&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Wallpoet&display=swap');
+.aboutcodeme{
+    height:100vh;
+}
+.aboutcodetext{
+    background-image: url('../assets/bglines.jpg');
+    height:6rem;
+    width: auto;
+}
+.codetext{
+    font-size: 60px;
+    font-family: 'Black Ops One', cursive;
+}
+.codetext span{
+    color:red;
+    
+}
+
+.card1container{
+    position: relative;
+    height: 200px;
+    width:400px;
+}
+.card1{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    transform-style: preserve-3d;
+    transition: transform 0.5s ease-in-out;
+}
+
+.card1 .front{
+    position: absolute;
+    height:100%;
+    width: 100%;
+    background:linear-gradient(to right,#a8ff78,#78ffd6);
+    backface-visibility: hidden;
+}
+.card1 .back{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    backface-visibility: hidden;
+    transform: rotateY(180deg);
+}
+.card1container:hover .card1{
+    transform: rotateY(180deg);
+}
+.card1 .back p{
+    font-style: italic;
+    font-size: 20px;
+    z-index: 1;
+
+}
+.card1 .back .support{
+    z-index: 0;
+    height: 100%;
+    width: 100%;
+}
+.card1 .back .winner{
+    z-index: 0;
+    height: 80%;
+    width: 80%;
+    position: absolute;
+    left:5%;
+    top:60%;
+}
+.card1 .back h1{
+    font-family: 'Archivo Black', sans-serif;
+    font-size:20px;
+}
+.undernav h1{
+    font-size:50px;
+    font-family: 'Bungee Inline', cursive;
+
+}
+.undernav .counter1{
+    font-size:50px;
+    font-family: 'Wallpoet', cursive;
+}
+
+
+ /* card 2 container */
+
+ .card2container{
+    position: relative;
+    height: 200px;
+    width:400px;
+}
+.card2{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    transform-style: preserve-3d;
+    transition: transform 0.5s ease-in-out;
+}
+
+.card2 .front{
+    position: absolute;
+    height:100%;
+    width: 100%;
+    background:linear-gradient(to right,#a8ff78,#78ffd6);
+    backface-visibility: hidden;
+}
+.card2 .back{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    backface-visibility: hidden;
+    transform: rotateY(180deg);
+}
+.card2container:hover .card1{
+    transform: rotateY(180deg);
+}
+.card2 .back p{
+    font-style: italic;
+    font-size: 20px;
+    z-index: 1;
+
+}
+.card2 .back .support{
+    z-index: 0;
+    height: 100%;
+    width: 100%;
+}
+.card2 .back .winner{
+    z-index: 0;
+    height: 80%;
+    width: 80%;
+    position: absolute;
+    left:5%;
+    top:60%;
+}
+.card2 .back h1{
+    font-family: 'Archivo Black', sans-serif;
+    font-size:20px;
+}
+.card2container:hover .card2{
+    transform: rotateY(180deg);
+}
+
+@media screen and (max-width:500px){
+    .codetext{
+        font-size: 50px;
+    }
+    .card1container{
+       margin-top:-40%;
+        
+    }
+    .card2container{
+        margin-top: 30%;
+    }
+    .card1 .back .support{
+        height: 100px;
+        width:100px;
+        margin-left: 30%;
+        
+    }
+    .card1 .back p{
+        font-size: 14px;
+        
+    }
+   
+}
